@@ -105,4 +105,5 @@ while True:
             else:
                 # TODO work on dropping item logic
                 print(f"you are dropping {player_cmd[1]}")
+                my_player.remove_item_inventory(player_cmd[1])
 

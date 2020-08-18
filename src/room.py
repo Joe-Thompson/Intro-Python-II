@@ -20,7 +20,8 @@ class Room:
                 return items
             else:
                 print(f"{item} is not in this room")
-# TODO working on removing items from room
+
+    # TODO working on removing items from room
     def remove_item(self, item):
         print(f"this is the item: {item}")
         self.items.remove(item)
